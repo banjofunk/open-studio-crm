@@ -1,0 +1,84 @@
+.schedule {
+  display: flex;
+  margin: auto;
+  max-width: 1100px;
+  height: calc(100vh - 50px);
+  .non-ideal-container {
+    position: relative;
+    height: calc(100vh - 100px);
+    .non-ideal {
+      width: 300px;
+      height: 100px;
+      padding: 20px;
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      margin: -70px 0 0 -170px;
+      span {
+        color: #3C4B58;
+      }
+    }
+  }
+  .content-card {
+    margin-top: 20px;
+    max-width: 90%;
+  }
+  .day-label {
+    color: #32424F;
+  }
+}
+
+.content {
+  max-width: 1000px;
+}
+
+.students-card {
+  max-width: 800px;
+  table {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+label {
+  font-weight: 600;
+  span {
+    margin-left: 5px;
+    font-weight: 400;
+  }
+}
+
+.content-header {
+  .bp3-button-group {
+    margin-left: 10px;
+    .bp3-button{
+      color: #32424F;
+      &.active {
+        background: #E1E6EA;
+      }
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 3pt 2pt #888899;
+      }
+    }
+  }
+}
+.event-group {
+  margin: 5px 0;
+  display: flex;
+  div {
+    flex: 1;
+    span, a {
+      margin-left: 5px;
+    }
+    &.center {
+      text-align: center;
+    }
+  }
+}
+
+.user-description {
+  max-width: 600px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}

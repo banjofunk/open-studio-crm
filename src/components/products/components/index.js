@@ -1,0 +1,6 @@
+export { default as EditProductContent } from './editProductContent'
+export { default as ProductsSidebar } from './productsSidebar'
+export { default as ProductsHeader } from './productsHeader'
+export { default as ProductsContent } from './ProductsContent'
+export { default as ProductContent } from './productContent'
+export { default as NewProductContent } from './newProductContent'

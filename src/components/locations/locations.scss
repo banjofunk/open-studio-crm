@@ -1,0 +1,34 @@
+.locations {
+  display: flex;
+  margin: auto;
+  max-width: 1100px;
+  height: calc(100vh - 50px);
+  .non-ideal-container {
+    position: relative;
+    top: 200px;
+    .non-ideal {
+      width: 300px;
+      height: 100px;
+      padding: 20px;
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      margin: -70px 0 0 -170px;
+      span {
+        color: #3C4B58;
+      }
+    }
+  }
+  .content-card {
+    margin-top: 20px;
+    max-width: 90%;
+  }
+}
+
+.location-form {
+  max-width: 600px;
+}
+
+.room-form {
+  max-width: 600px;
+}
